@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #10ae7c #003768;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: green;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #003768 #10ae7c;
+  border-radius: 10px;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: url("../tlo.png");
+  background-position-x: left;
+  background-position-y: end;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html a {
+  transition: 0.3s;
+  margin-left: 20px;
+}
+html a a:hover {
+  color: #4babff;
+}
+html body {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+html body header {
+  align-self: flex-start;
+  position: sticky;
+  top: 0px;
+  width: 99%;
+  margin-bottom: 100px;
+}
+html body header a {
+  margin: 0px;
+  width: 100%;
+  display: block;
+  backdrop-filter: blur(10px);
+}
+html body header a h1 {
+  opacity: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+  font-size: 4rem;
+  background: linear-gradient(#10ae7c, #4babff);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  transition: all 0.3s;
+}
+html body header a h1:hover, html body header a h1:focus {
+  cursor: pointer;
+  text-shadow: -8px -9px 49px #4babff;
+  transform: rotate(-2deg);
+}
+html body header a h1::before {
+  position: absolute;
+  left: 8.5%;
+  border-radius: 33px;
+  content: "";
+  width: 0%;
+  background: linear-gradient(20deg, #10ae7c, #4babff);
+  display: block;
+  height: 9px;
+  bottom: 0px;
+  transition: all 0.3s linear;
+}
+html body header a h1:hover::before, html body header a h1:focus::before {
+  width: 85%;
+}
+html #container {
+  width: 100%;
+}
+html #container figure {
+  margin: 30px auto;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+html #container .concact_option {
+  color: #10ae7c;
+  font-size: 30px;
+  width: 100%;
+  padding-left: 20vw;
+}
+html #container .concact_option a {
+  font-weight: bold;
+}
+html #container h2 {
+  font-size: 2.5rem;
+  color: #10ae7c;
+}
+html #container div {
+  padding-left: 20px;
+}
+html #container div.link_box {
+  margin: 5px;
+  font-size: 27px;
+}
+html #container summary {
+  color: #ffff00;
+  padding-left: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+html #container a {
+  transition: 0.3s;
+  margin-left: 20px;
+}
+html #container a:hover {
+  color: #4babff;
+}
+html footer {
+  text-align: center;
+  position: sticky;
+  font-weight: bold;
+  bottom: 0px;
+  background: linear-gradient(30deg, #10ae7c, #4babff);
+  font-size: 32px;
+  padding: 20px;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  backdrop-filter: blur(5px);
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  html > body > header {
+    margin: 0px;
+    position: static;
+  }
+}
