@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="../dist/style.css">
 
 </head>
 
@@ -22,7 +22,7 @@
         <div class="concact_option">Media: <a href="https://www.e-korepetycje.net/maxmat" target="_blank">e-korepetycje.net</a></div>
         <div class="concact_option"><a href="https://www.facebook.com/profile.php?id=61550970885129" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></div>
         <div class="concact_option">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/rychlinskimaks?igsh=MXNzemdoa3hrbjhxbQ==" target="_blank">Instagram</a></div>
-        <figure><img src="wizytowka.png" width="500" alt="wizytówka">
+        <figure><img src="../wizytowka.png" width="500" alt="wizytówka">
             <figcaption>Wizytowka - Maks Rychliński</figcaption>
         </figure>
     </main>
